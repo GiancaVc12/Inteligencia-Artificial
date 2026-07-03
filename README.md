@@ -1,4 +1,4 @@
-# 🥔 Predicción del Precio de la Papa Blanca en mercado central Lima mediante Machine Learning
+# 🥔 Predicción del Precio de la Papa Blanca en mercado mayorista Lima mediante Machine Learning
 
 ## 📌 Descripción del Proyecto
 
@@ -27,34 +27,6 @@ La papa es uno de los alimentos más importantes para la economía y la segurida
 * Pandas
 * NumPy
 * Matplotlib
-
----
-
-## 📂 Estructura del Proyecto
-
-```bash
-📦 precio-papa-peru-ml
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   ├── exploratory_analysis.ipynb
-│   └── model_training.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── training.py
-│   └── evaluation.py
-│
-├── models/
-│
-├── results/
-│
-├── requirements.txt
-│
-└── README.md
-```
 
 ---
 
