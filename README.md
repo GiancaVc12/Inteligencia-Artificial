@@ -4,7 +4,7 @@
 
 Este repositorio contiene el desarrollo del proyecto del **Grupo 6 del curso de Inteligencia Artificial de la Pontificia Universidad Católica del Perú (PUCP)**.
 
-El objetivo principal es diseñar, entrenar y evaluar un modelo de **Machine Learning** capaz de estimar el precio de la papa en el mercado central peruano en Lima utilizando datos históricos, variables económicas y factores ambientales que influyen en la oferta y demanda del producto.
+El objetivo principal es diseñar, entrenar y evaluar un modelo de **Machine Learning** capaz de estimar el precio de la papa blanca en el mercado mayorista peruano en Lima utilizando datos históricos, variables económicas y factores ambientales que influyen en la oferta y demanda del producto.
 
 La papa es uno de los alimentos más importantes para la economía y la seguridad alimentaria del Perú, por lo que contar con herramientas de predicción puede contribuir a una mejor toma de decisiones para los comerciantes.
 
@@ -45,11 +45,9 @@ La papa es uno de los alimentos más importantes para la economía y la segurida
 ## 📊 Modelos Evaluados
 
 Algunos de los modelos considerados en este proyecto incluyen:
-
-* Regresión Lineal
 * Random Forest Regressor
 * Gradient Boosting
-
+* Ridge
 Las métricas utilizadas para evaluar el desempeño incluyen:
 
 * MAE (Mean Absolute Error)
