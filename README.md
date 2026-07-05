@@ -49,6 +49,7 @@ Algunos de los modelos considerados en este proyecto incluyen:
 * Ridge
 * SVR-RBF
 * Naive_t
+
 Las métricas utilizadas para evaluar el desempeño incluyen:
 
 * MAE (Mean Absolute Error)
