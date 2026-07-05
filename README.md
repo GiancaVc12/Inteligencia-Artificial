@@ -6,7 +6,7 @@ Este repositorio contiene el desarrollo del proyecto del **Grupo 6 del curso de 
 
 El objetivo principal es diseñar, entrenar y evaluar un modelo de **Machine Learning** capaz de estimar el precio de la papa blanca en el mercado mayorista peruano en Lima utilizando datos históricos, variables económicas y factores ambientales que influyen en la oferta y demanda del producto.
 
-La papa es uno de los alimentos más importantes para la economía y la seguridad alimentaria del Perú, por lo que contar con herramientas de predicción puede contribuir a una mejor toma de decisiones para los comerciantes.
+La papa es uno de los alimentos más importantes para la economía y la seguridad alimentaria del Perú, por lo que contar con herramientas de predicción puede contribuir a una mejor toma de decisiones para los agricultores y comerciantes.
 
 ---
 
@@ -35,24 +35,27 @@ La papa es uno de los alimentos más importantes para la economía y la segurida
 1. Recolección de datos.
 2. Análisis exploratorio (EDA).
 3. Preprocesamiento y limpieza.
-4. Ingeniería de características.
-5. Entrenamiento de modelos.
-6. Evaluación y validación.
-7. Generación de predicciones.
+4. Entrenamiento de modelos.
+5. Evaluación y validación.
+6. Generación de predicciones.
 
 ---
 
 ## 📊 Modelos Evaluados
 
 Algunos de los modelos considerados en este proyecto incluyen:
-* Random Forest Regressor
-* Gradient Boosting
+* Random Forest
+* Gradient Boosting(LightGBM)
 * Ridge
+* SVR-RBF
+* Naive_t
 Las métricas utilizadas para evaluar el desempeño incluyen:
 
 * MAE (Mean Absolute Error)
-* MSE (Mean Squared Error)
+* RMSE (Mean Squared Error)
 * R² Score
+* MAPE
+* sMAPE
 
 ---
 
@@ -65,7 +68,7 @@ Las métricas utilizadas para evaluar el desempeño incluyen:
 
 ## 📈 Resultados Esperados
 
-Se espera desarrollar un modelo con capacidad predictiva que permita estimar el comportamiento futuro del precio de la papa en Perú, contribuyendo al análisis de mercados agrícolas mediante técnicas de Inteligencia Artificial.
+Se espera desarrollar un modelo con capacidad predictiva que permita estimar el comportamiento futuro del precio de la papa en Perú(sube o baja el precio) en un rango de 1-7 dias futuros, contribuyendo al análisis de mercados agrícolas mediante técnicas de Inteligencia Artificial.
 
 ---
 
